@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>No Skylights Category</name>
+	<author>Kobe Riddle</author>
+	<packageId>KobeRiddle.NoSkylightsCategory</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+	</modDependencies>
+	<description>Removes the Skylights category and moves skylights to the structure architect category.\nRecommended to be used together with Clean Categories Dropdowns: *Extended*.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>Ludeon.Rimworld.Odyssey</li>
+
+		<li>Dubwise.DubsSkylights</li>
+	</loadAfter>
+</ModMetaData>
