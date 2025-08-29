@@ -9,4 +9,18 @@
         </value>
     </Operation>
 
+    <!-- Remove Skylight Category -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/DesignationCategoryDef[defName="skylights"]</xpath>
+    </Operation>
+
+    <!-- Add deconstruct designator to structure category -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/DesignationCategoryDef[defName="Ship"]/specialDesignatorClasses</xpath>
+        <value>
+                <li>Dubs_Skylight.Designator_RemoveSkylights</li>
+        </value>
+    </Operation>
+
 </Patch>
