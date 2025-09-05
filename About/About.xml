@@ -7,6 +7,11 @@
 		<li>1.6</li>
 	</supportedVersions>
 	<modDependencies>
+		<li>
+			<packageId>Dubwise.DubsSkylights</packageId>
+			<displayName>Dubs Skylights</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=833899765</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<description>Removes the Skylights category and moves skylights to the structure architect category.\nRecommended to be used together with Clean Categories Dropdowns: *Extended*.</description>
 	<loadAfter>
