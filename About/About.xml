@@ -17,6 +17,8 @@
 		<li>Ludeon.Rimworld.Anomaly</li>
 		<li>Ludeon.Rimworld.Odyssey</li>
 
+		<li>Ferny.BetterArchitect</li>
+
 		<li>Dubwise.DubsSkylights</li>
 	</loadAfter>
 </ModMetaData>
