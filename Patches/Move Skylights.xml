@@ -22,4 +22,13 @@
         </value>
     </Operation>
 
+
+    <!-- Remove designators from Lighting category if Better Architect Menu is active -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Lighting"]/specialDesignatorClasses/li[text()="Dubs_Skylight.Designator_RemoveSkylights"]</xpath>
+        <match Class="PatchOperationRemove">
+            <xpath>Ferny_Lighting/specialDesignatorClasses/li[text()="Dubs_Skylight.Designator_RemoveSkylights"]</xpath>
+        </match>
+    </Operation>
+
 </Patch>
